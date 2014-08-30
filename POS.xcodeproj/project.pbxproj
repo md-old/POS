@@ -14,13 +14,21 @@
 		AC74F6F919A64501009528D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC74F6F819A64501009528D3 /* main.m */; };
 		AC74F6FD19A64501009528D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC74F6FC19A64501009528D3 /* AppDelegate.m */; };
 		AC74F70019A64501009528D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC74F6FE19A64501009528D3 /* Main.storyboard */; };
-		AC74F70319A64501009528D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC74F70219A64501009528D3 /* ViewController.m */; };
 		AC74F70519A64501009528D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC74F70419A64501009528D3 /* Images.xcassets */; };
 		AC74F70C19A64501009528D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC74F70B19A64501009528D3 /* XCTest.framework */; };
 		AC74F70D19A64501009528D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC74F6EC19A64501009528D3 /* Foundation.framework */; };
 		AC74F70E19A64501009528D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC74F6F019A64501009528D3 /* UIKit.framework */; };
 		AC74F71619A64501009528D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC74F71419A64501009528D3 /* InfoPlist.strings */; };
 		AC74F71819A64501009528D3 /* POSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC74F71719A64501009528D3 /* POSTests.m */; };
+		AC74F72919A64EF4009528D3 /* POSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC74F72819A64EF4009528D3 /* POSTableViewController.m */; };
+		ACA7DA9519A783120050EE5B /* GuestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7DA9419A783120050EE5B /* GuestCell.m */; };
+		ACA7DA9919A78A230050EE5B /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7DA9819A78A230050EE5B /* Order.m */; };
+		ACA7DA9C19A78A750050EE5B /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7DA9B19A78A750050EE5B /* Product.m */; };
+		ACD213DD19AF0FEB00B8951B /* POSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD213DC19AF0FEB00B8951B /* POSDetailViewController.m */; };
+		ACD213E119AF11B500B8951B /* approve.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD213DF19AF11B500B8951B /* approve.png */; };
+		ACD213E219AF11B500B8951B /* cross5.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD213E019AF11B500B8951B /* cross5.png */; };
+		ACD213E519AF13FE00B8951B /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD213E419AF13FE00B8951B /* ProductCell.m */; };
+		ACD213E719AF1E6D00B8951B /* time1.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD213E619AF1E6D00B8951B /* time1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +53,27 @@
 		AC74F6FB19A64501009528D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AC74F6FC19A64501009528D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AC74F6FF19A64501009528D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC74F70119A64501009528D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AC74F70219A64501009528D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC74F70419A64501009528D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC74F70A19A64501009528D3 /* POSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC74F70B19A64501009528D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AC74F71319A64501009528D3 /* POSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POSTests-Info.plist"; sourceTree = "<group>"; };
 		AC74F71519A64501009528D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC74F71719A64501009528D3 /* POSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POSTests.m; sourceTree = "<group>"; };
+		AC74F72719A64EF4009528D3 /* POSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSTableViewController.h; sourceTree = "<group>"; };
+		AC74F72819A64EF4009528D3 /* POSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSTableViewController.m; sourceTree = "<group>"; };
+		ACA7DA9319A783120050EE5B /* GuestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestCell.h; sourceTree = "<group>"; };
+		ACA7DA9419A783120050EE5B /* GuestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestCell.m; sourceTree = "<group>"; };
+		ACA7DA9719A78A230050EE5B /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		ACA7DA9819A78A230050EE5B /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		ACA7DA9A19A78A750050EE5B /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		ACA7DA9B19A78A750050EE5B /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		ACD213DB19AF0FEB00B8951B /* POSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSDetailViewController.h; sourceTree = "<group>"; };
+		ACD213DC19AF0FEB00B8951B /* POSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSDetailViewController.m; sourceTree = "<group>"; };
+		ACD213DF19AF11B500B8951B /* approve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = approve.png; sourceTree = "<group>"; };
+		ACD213E019AF11B500B8951B /* cross5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross5.png; sourceTree = "<group>"; };
+		ACD213E319AF13FE00B8951B /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		ACD213E419AF13FE00B8951B /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		ACD213E619AF1E6D00B8951B /* time1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +133,21 @@
 		AC74F6F219A64501009528D3 /* POS */ = {
 			isa = PBXGroup;
 			children = (
+				ACD213DE19AF11B500B8951B /* png */,
+				ACA7DA9619A78A110050EE5B /* Model */,
 				AC74F6FB19A64501009528D3 /* AppDelegate.h */,
 				AC74F6FC19A64501009528D3 /* AppDelegate.m */,
 				AC74F6FE19A64501009528D3 /* Main.storyboard */,
-				AC74F70119A64501009528D3 /* ViewController.h */,
-				AC74F70219A64501009528D3 /* ViewController.m */,
 				AC74F70419A64501009528D3 /* Images.xcassets */,
 				AC74F6F319A64501009528D3 /* Supporting Files */,
+				AC74F72719A64EF4009528D3 /* POSTableViewController.h */,
+				AC74F72819A64EF4009528D3 /* POSTableViewController.m */,
+				ACA7DA9319A783120050EE5B /* GuestCell.h */,
+				ACA7DA9419A783120050EE5B /* GuestCell.m */,
+				ACD213DB19AF0FEB00B8951B /* POSDetailViewController.h */,
+				ACD213DC19AF0FEB00B8951B /* POSDetailViewController.m */,
+				ACD213E319AF13FE00B8951B /* ProductCell.h */,
+				ACD213E419AF13FE00B8951B /* ProductCell.m */,
 			);
 			path = POS;
 			sourceTree = "<group>";
@@ -151,6 +180,27 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		ACA7DA9619A78A110050EE5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7DA9719A78A230050EE5B /* Order.h */,
+				ACA7DA9819A78A230050EE5B /* Order.m */,
+				ACA7DA9A19A78A750050EE5B /* Product.h */,
+				ACA7DA9B19A78A750050EE5B /* Product.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ACD213DE19AF11B500B8951B /* png */ = {
+			isa = PBXGroup;
+			children = (
+				ACD213E619AF1E6D00B8951B /* time1.png */,
+				ACD213DF19AF11B500B8951B /* approve.png */,
+				ACD213E019AF11B500B8951B /* cross5.png */,
+			);
+			path = png;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -228,9 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD213E219AF11B500B8951B /* cross5.png in Resources */,
 				AC74F70519A64501009528D3 /* Images.xcassets in Resources */,
+				ACD213E719AF1E6D00B8951B /* time1.png in Resources */,
 				AC74F6F719A64501009528D3 /* InfoPlist.strings in Resources */,
 				AC74F70019A64501009528D3 /* Main.storyboard in Resources */,
+				ACD213E119AF11B500B8951B /* approve.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC74F70319A64501009528D3 /* ViewController.m in Sources */,
 				AC74F6FD19A64501009528D3 /* AppDelegate.m in Sources */,
+				ACD213E519AF13FE00B8951B /* ProductCell.m in Sources */,
+				ACA7DA9919A78A230050EE5B /* Order.m in Sources */,
+				ACD213DD19AF0FEB00B8951B /* POSDetailViewController.m in Sources */,
 				AC74F6F919A64501009528D3 /* main.m in Sources */,
+				ACA7DA9C19A78A750050EE5B /* Product.m in Sources */,
+				ACA7DA9519A783120050EE5B /* GuestCell.m in Sources */,
+				AC74F72919A64EF4009528D3 /* POSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +516,7 @@
 				AC74F71D19A64501009528D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC74F71E19A64501009528D3 /* Build configuration list for PBXNativeTarget "POSTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +525,7 @@
 				AC74F72019A64501009528D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
